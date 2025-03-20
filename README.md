@@ -97,7 +97,7 @@ A **count plot** was used to analyze the distribution of wine quality ratings:
 sns.countplot(x=df_red["quality"], palette="Set2")
 ```
 
-![image.png](image.png)
+![image.png](https://github.com/ndomah1/Red-Wine-Quality-Exploratory-Data-Analysis-in-Python/blob/main/images/image.png)
 
 #### **Findings**
 
@@ -114,7 +114,7 @@ To identify relationships between features, a **correlation heatmap** was plotte
 sns.heatmap(df_red.corr(), annot=True, cmap="coolwarm", fmt=".2f", linewidths=0.5)
 ```
 
-![image.png](image%201.png)
+![image.png](https://github.com/ndomah1/Red-Wine-Quality-Exploratory-Data-Analysis-in-Python/blob/main/images/image%201.png)
 
 #### **Key Observations**
 
@@ -136,7 +136,7 @@ for col in df_red.columns:
     plt.show()
 ```
 
-![image.png](image%202.png)
+![image.png](https://github.com/ndomah1/Red-Wine-Quality-Exploratory-Data-Analysis-in-Python/blob/main/images/image%202.png)
 
 #### **Finding**
 
@@ -149,7 +149,7 @@ for col in df_red.columns:
 sns.boxplot(data=df_red, palette="Set3")
 ```
 
-![image.png](image%203.png)
+![image.png](https://github.com/ndomah1/Red-Wine-Quality-Exploratory-Data-Analysis-in-Python/blob/main/images/image%203.png)
 
 #### **Outliers Identified**
 
@@ -165,7 +165,7 @@ A **pairplot** was used to **visualize interactions** between features:
 sns.pairplot(df_red, hue="quality", palette="husl")
 ```
 
-![image.png](image%204.png)
+![image.png](https://github.com/ndomah1/Red-Wine-Quality-Exploratory-Data-Analysis-in-Python/blob/main/images/image%204.png)
 
 #### **Findings**
 
